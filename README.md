@@ -9,8 +9,9 @@ Deep neural networks have been widely used in many critical applications, such a
 In this work, we propose Adversarial Feature Map Pruning for Backdoor (FMP) to mitigate backdoor from the DNN. Unlike existing defense strategies, which focus on reproducing backdoor triggers, FMP attempts to prune backdoor fea- ture maps, which are trained to extract backdoor information from inputs. After pruning these backdoor feature maps, FMP will fine-tune the model with a secure subset of training data. Our experiments demonstrate that, compared to existing defense strategies, FMP can effectively reduce the Attack Success Rate (ASR) even against the most complex and invisible attack triggers (e.g., FMP decreases the ASR to 2.86% in CIFAR10, which is 19.2% to 65.41% lower than baselines). Second, unlike conventional defense methods that tend to exhibit low robust accu- racy (that is, the accuracy of the model on poisoned data), FMP achieves a higher RA, indicating its superiority in maintaining model performance while mitigating the effects of backdoor attacks (e.g., FMP obtains 87.40% RA in CIFAR10).
 
 ## :rocket: Updates
-**02/20/2024:** Code released.
-**01/16/2024:**:tada:  Our paper is accepted to ICLR'24
+**02/20/2024:** Code released
+
+**01/16/2024:** :tada:Our paper is accepted to ICLR'24
 
 ## :ballot_box_with_check: How to run FMP for different attack?
 
