@@ -25,7 +25,7 @@ python ./attack/badnet_attack.py --yaml_path ../config/attack/badnet/cifar10.yam
 ### Second, use FMT to repair the DNN model.
 
 ```
-python ./defense/feature.py  --yaml_path ./config/defense/feature/cifar10.yaml --dataset cifar10 --result_file badnet_cifar10
+python ./defense/fgsm-feature.py  --yaml_path ./config/defense/feature/cifar10.yaml --dataset cifar10 --result_file badnet_cifar10
 ```
 
 ### (Optional) Run baseline approaches~(e.g., FT) for comparisoon.
